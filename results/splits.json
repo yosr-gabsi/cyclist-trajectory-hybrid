@@ -1,0 +1,71 @@
+{
+  "train": {
+    "videos": [
+      "bookstore/video1",
+      "bookstore/video3",
+      "coupa/video1",
+      "coupa/video0",
+      "deathCircle/video2",
+      "deathCircle/video0",
+      "deathCircle/video3",
+      "gates/video6",
+      "gates/video0",
+      "gates/video4",
+      "gates/video7",
+      "gates/video5",
+      "gates/video1",
+      "hyang/video10",
+      "hyang/video4",
+      "hyang/video1",
+      "hyang/video0",
+      "hyang/video8",
+      "hyang/video6",
+      "hyang/video7",
+      "hyang/video9",
+      "hyang/video3",
+      "little/video2",
+      "little/video3",
+      "nexus/video8",
+      "nexus/video11",
+      "nexus/video4",
+      "nexus/video9",
+      "nexus/video10",
+      "nexus/video6",
+      "nexus/video3",
+      "nexus/video5",
+      "nexus/video0",
+      "quad/video1",
+      "quad/video2"
+    ],
+    "windows": 41821
+  },
+  "val": {
+    "videos": [
+      "bookstore/video0",
+      "deathCircle/video1",
+      "gates/video3",
+      "hyang/video5",
+      "little/video1",
+      "nexus/video7",
+      "quad/video3"
+    ],
+    "windows": 15890
+  },
+  "test": {
+    "videos": [
+      "bookstore/video2",
+      "coupa/video3",
+      "deathCircle/video4",
+      "gates/video2",
+      "gates/video8",
+      "hyang/video2",
+      "hyang/video11",
+      "hyang/video12",
+      "little/video0",
+      "nexus/video1",
+      "nexus/video2",
+      "quad/video0"
+    ],
+    "windows": 5958
+  }
+}
