@@ -1,0 +1,63 @@
+{
+  "n_windows_test": 5958,
+  "sfm_activation_selection (%)": 1.9637462235649545,
+  "params": {
+    "SFM": {
+      "tau": 0.3,
+      "A": 0.5,
+      "B": 0.2,
+      "lam": 0.35,
+      "radius_self": 0.6,
+      "radius_other": 0.3,
+      "max_speed_factor": 1.3
+    },
+    "Hybride fusion": {
+      "tau": 0.3,
+      "A": 0.5,
+      "B": 0.2,
+      "lam": 0.35,
+      "radius_self": 0.6,
+      "radius_other": 0.3,
+      "max_speed_factor": 1.3
+    },
+    "d_switch": 0.5
+  },
+  "results": {
+    "Trajectoires réelles": {
+      "ADE (m)": 0.0,
+      "FDE (m)": 0.0,
+      "Collisions (%)": 1.3259483048002685,
+      "Accél. > 4 m/s² (%)": 26.854649211144682
+    },
+    "Vitesse constante": {
+      "ADE (m)": 2.246742075537436,
+      "FDE (m)": 5.062315241415265,
+      "Collisions (%)": 2.148371936891574,
+      "Accél. > 4 m/s² (%)": 0.0
+    },
+    "LSTM": {
+      "ADE (m)": 2.1291420459747314,
+      "FDE (m)": 4.807614803314209,
+      "Collisions (%)": 2.0812353138637127,
+      "Accél. > 4 m/s² (%)": 0.25176233635448136
+    },
+    "SFM": {
+      "ADE (m)": 2.2454872131347656,
+      "FDE (m)": 5.058865070343018,
+      "Collisions (%)": 2.0812353138637127,
+      "Accél. > 4 m/s² (%)": 0.10070493454179255
+    },
+    "Hybride fusion": {
+      "ADE (m)": 2.1222853660583496,
+      "FDE (m)": 4.794611930847168,
+      "Collisions (%)": 2.0644511581067473,
+      "Accél. > 4 m/s² (%)": 0.26854649211144677
+    },
+    "Hybride sélection": {
+      "ADE (m)": 2.128844738006592,
+      "FDE (m)": 4.806530475616455,
+      "Collisions (%)": 2.014098690835851,
+      "Accél. > 4 m/s² (%)": 0.3356831151393085
+    }
+  }
+}
